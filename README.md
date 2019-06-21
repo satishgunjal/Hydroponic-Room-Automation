@@ -32,9 +32,9 @@
 - UPS (To save RPi from electricity outage and for safe shutdown)
   I have design my ouwn UPS but there are many solutions available in market
   
-## How many minutes do i have run the fans?
+## How many minutes do I have to run the fans?
 - It depends on the room size
-- My room size is 15*18*9 => 2430 cub.ft => 69 cub.mtr
+- My room size is 15x18x9 => 2430 cub.ft => 69 cub.mtr
 - Inlet and exhaust fan capacity is 450 cu.mtr/hr => 7.5 cu.mtr/min 
 - Since i am using 2 inlet and 2 exhaust fans, it will take approx 4.6 min to replace the air in the room
   
