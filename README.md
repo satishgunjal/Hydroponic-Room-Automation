@@ -30,8 +30,17 @@
 - UPS (To save RPi from electricity outage and for safe shutdown)
   I have design my ouwn UPS but there are many solutions available in market
 
-# Equipments To Control
-1. One 0.5 HP submersible water pump
-2. Four 60W exhaust fans
-3. Two 50W ventilation fan
-4. One 130W Air Cooler
+# How it works
+- Please refer hydropnic.py for source code
+- Raspberry pi will start the hydroponic.py on boot
+- All the configurations and stats are stored in SQLite DB file (hydroponic.db)
+- Table 'exhaustonofftime' contains timing for exhaust fans on and off state
+- Table 'inletfanonofftime' conatins the timings for inlet fan on and off state
+- Table 'pumponofftime' contains the timings for pump on and off state
+- Table 'ventilationfanonofftime' contains the timings for ventilation fans on and off state
+- Table 'deviceid' contains the details of the devices.
+- Table 'sensors' contains the sensor details
+- Table 'sensordata' in transactional table where all the sensor readings are stored
+- Table 'pistats' is transactional table whwere pi usage details are stored.
+- 
+
