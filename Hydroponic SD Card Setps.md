@@ -24,13 +24,13 @@
 
     network={
             ssid="Nandanvan"
-            psk="Nandanvan@1"
+            psk="*****"
             key_mgmt=WPA-PSK
     }
 
     network={
             ssid="OnePlus3"
-            psk="satish1234"
+            psk="******"
             key_mgmt=WPA-PSK
     }
 ```
