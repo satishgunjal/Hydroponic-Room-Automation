@@ -34,7 +34,7 @@
             key_mgmt=WPA-PSK
     }
 ```
-- Note: After login, Can use command "sudo nano /etc/wpa_supplicant/wpa_supplicant.conf" toedit/update ssid’s
+- Note: After login, Can use command "sudo nano /etc/wpa_supplicant/wpa_supplicant.conf" to edit/update ssid’s
 - Using command 'sudo raspi-config' update country, localisation, hostname, password, expand fileset.
 - Interfacing Options" / "Pi Serial". It is then necessary to answer as follows:
        ```
