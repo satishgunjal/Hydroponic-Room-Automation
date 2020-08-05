@@ -1,4 +1,5 @@
 # Hydroponic-Room-Automation
+![Hydroponic_Header](Hydroponic_Header.jpg)
 
 ## What is Hydropnic?
 - Hydroponics is a subset of hydroculture, which is a method of growing plants without soil by instead using water
